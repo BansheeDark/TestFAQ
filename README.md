@@ -29,12 +29,12 @@ chmod -R +x ./resources/
 
 ### Тесты
 
-* _com.nindeco.Config_ - пакет с конфигурацией проекта.
-  * _com.nindeco.Config.Browser_ - Java класс для конфигурации браузера.
-* _com.nindeco.PageObject_ - пакет с Java классами, используется паттерн PageObject(Встроен в Selenide).
-  * _com.nindeco.PageObject.TemplatePage_ - Java класс, содержащий объекты страницы сайта и методы для взаимодействия с ними.
-* _com.nindeco.TestCase_ - пакет, содержащий тест кейсы.
-  * _com.nindeco.TestCase.TemplateCase_ - Java класс, содержащий описание теста и его выполнение.
+* _com.bansheedark.Config_ - пакет с конфигурацией проекта.
+  * _com.bansheedark.Config.Browser_ - Java класс для конфигурации браузера.
+* _com.bansheedark.PageObject_ - пакет с Java классами, используется паттерн PageObject(Встроен в Selenide).
+  * _com.bansheedark.PageObject.TemplatePage_ - Java класс, содержащий объекты страницы сайта и методы для взаимодействия с ними.
+* _com.bansheedark.TestCase_ - пакет, содержащий тест кейсы.
+  * _com.bansheedark.TestCase.TemplateCase_ - Java класс, содержащий описание теста и его выполнение.
 
 ### Другие исходные файлы тестов
 
@@ -48,7 +48,7 @@ chmod -R +x ./resources/
 
 ## <a name="settings"> Настройка проекта
 
-Необходимо настроить Java класс _com.nindeco.Config.Browser_ под выполняемый проект.<br/>
+Необходимо настроить Java класс _com.bansheedark.Config.Browser_ под выполняемый проект.<br/>
 В методе Connect() необходимо во вложенном методе _open("URL")_ изменить _URL_ на используемый в проекте _URL_ сайта.<br/>
 
 ## <a name="import"> Импорт настроек NetBeans
@@ -59,8 +59,8 @@ chmod -R +x ./resources/
 ## <a name="tmpcode"> Шаблоны кодов и классов NetBeans
 
 В проекте использовать шаблоны классов:
-* Для пакета _com.nindeco.PageObject_ использовать класс Java - "PageObject".
-* Для пакета _com.nindeco.TestCase_ использовать класс Java - "TestCase".
+* Для пакета _com.bansheedark.PageObject_ использовать класс Java - "PageObject".
+* Для пакета _com.bansheedark.TestCase_ использовать класс Java - "TestCase".
 
 Шаблоны используются для облегченного и быстрого написания тестов. В шаблонах присутствует заполненная документация JavaDoc.<br/>
 Применение шаблона (шаблон + TAB).<br/>
