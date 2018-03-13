@@ -13,7 +13,7 @@
 
 1. Клонировать шаблон проекта командой:
 <pre>
-git clone http://git.nindeco.com/general.tests -b template
+git clone https://github.com/BansheeDark/TestFAQ.git -b master
 </pre>
 2. Открыть папку проекта перейти в +src/test/+ и выдать права для файлов в папке, выполнив команду:
 <pre>
@@ -54,7 +54,7 @@ chmod -R +x ./resources/
 ## <a name="import"> Импорт настроек NetBeans
 
 Для получения доступа к шаблонам кодов и классов, необходимо их импортировать в NetBeans.<br/>
-[Файл настроек](http://task.nindeco.com/attachments/download/473/.netbeans.zip)<br/>
+[Файл настроек](netbeans.zip)<br/>
 
 ## <a name="tmpcode"> Шаблоны кодов и классов NetBeans
 
