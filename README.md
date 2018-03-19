@@ -54,7 +54,7 @@ chmod -R +x ./resources/
 ## <a name="import"> Импорт настроек NetBeans
 
 Для получения доступа к шаблонам кодов и классов, необходимо их импортировать в NetBeans.<br/>
-[Файл настроек](netbeans.zip)<br/>
+[Файл настроек](.netbeans.zip)<br/>
 
 ## <a name="tmpcode"> Шаблоны кодов и классов NetBeans
 
