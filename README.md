@@ -13,7 +13,7 @@
 
 1. Клонировать шаблон проекта командой:
 <pre>
-git clone https://github.com/BansheeDark/TestFAQ.git -b master
+git clone https://github.com/YekitKsv/TestFAQ.git -b master
 </pre>
 2. Открыть папку проекта перейти в _src/test/_ и выдать права для файлов в папке, выполнив команду:
 <pre>
